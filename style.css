@@ -21,4 +21,30 @@ main{
 .textarea{
   border: none;
   color: #0a3871;
+  margin-top: 98px;
+  text-transform: lowercase;
+}
+::placeholder{
+  color: rgb(146, 199, 199);
+  .text-area:focus{
+    outline:none;
+  }
+}
+.mensage{
+  background-color: aliceblue;
+  background-image:url(./assets/garoto-lupa.png);
+  background-repeat: no-repeat;
+  border: none;
+  color:#0a3871;
+  margin-left: 98px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+}
+.mensage:focus{
+  outline: none;
+}
+.botoes{
+  display: flex;
+  margin-top: 18px;
 }
