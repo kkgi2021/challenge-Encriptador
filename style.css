@@ -1,93 +1,87 @@
-*{
-  background-color: azure;
-  font-family: 'inter', sans-serif;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 150%;
-  border-radius: 15px;
+* {
+  margin: 0;
+  padding: 0;
 }
-.logoAlura{
-  margin-left: 10px;
-  padding-top: 10px;
-  width: 2%;
-}
-
-main{
+main {
   display: flex;
-  margin-bottom: 50px;
-  margin-left: 80px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+section {
+  border-radius: 0.4em;
+  display: flex;
+  background-color: rgba(232, 217, 247, 0.548);
+  flex: auto;
+  flex-direction: column;
+  padding: 1em;
+  position: relative;
+  top: 5vh;
 }
 
-.textarea{
+textarea {
+  display: flex;
+  flex: auto;
+  position: relative;
+  width: 75vh;
+  height: 29vh;
+  border-radius: 3em;
+  text-align: left;
+  justify-content: center;
+  padding: 1em;
+  font-size: 1.5em;
   border: none;
-  color: #0a3871;
-  margin-top: 98px;
-  text-transform: lowercase;
+  transition: 0.7s;
+}
+textarea:focus{
+  color: rgb(160, 5, 231);
+  border:solid 1em rgba(5, 5, 5, 0);
+  font-size: 1.8em;
+  background-image:none;
+  transition: 0.4s;
+ }
+.mensage{
+  background-image: url(./assets/garoto-lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 ::placeholder{
-  color: rgb(146, 199, 199);
-  .text-area:focus{
-    outline:none;
-  }
-}
-.mensage{
-  background-color: aliceblue;
-  background-image:url(./assets/garoto-lupa.png);
-  background-repeat: no-repeat;
-  border: none;
-  color:#0a3871;
-  margin-left: 98px;
-  margin-top: 20px;
-  padding-left: 20px;
-  position: fixed;
-}
-.mensage:focus{
-  outline: none;
-}
-.botoes{
-  display: flex;
-  margin-top: 18px;
-}
-.btn-criptografar{
-  background-color:#0a3871;
-  border: 1px solid #0a3871;
-  cursor: pointer;
-  color: white;
-  height: 67px;
-  width: 328px;
-}
-.btn-descriptografar{
-  background-color:#0a3871;
-  border: 1px solid #0a3871;
-  cursor: pointer;
-  color: white;
-  height: 67px;
-  width: 328px;
-  margin-left: 30px;
+  color: rgba(173, 146, 72, 0.479);
 }
 
-.btn-copiar{
-    background-color: #0a3871;
-    border: 1px solid #0a3871;
-    cursor: pointer;
-    color: white;
-    height: 67px;
-    width: 190px;
-    position: absolute;
-    margin-left: 108px;
-    margin-top: 402px;
+button{
+  background-color: blue;
+  color: white;
+  margin: 1em;
+  position: relative;
+  left: 5em;
+  width: 9em;
+  border-radius: 1.6em;
+  font-size: 0.9em;
+  padding: 0.3em;
+  cursor: pointer;
 }
-
-.btn-limpar{
-   background-color: #0a3871;
-    border: 1px solid #0a3871;
-    cursor: pointer;
-    color: white;
-    height: 67px;
-    width: 166px;
-    position: absolute;
-    margin-left: 310px;
-    margin-top: 402px;
-}
+button:hover{
+  background-color: aquamarine;
+  color: rgb(8, 8, 8);
+  font-size: 1em;
+  padding-bottom:0.5em;
+  transition: 0.4s;
+ 
   
+}
+button:active{
+  background-color: rgb(247, 6, 58);
+  color: rgb(250, 248, 248);
+  padding-top:0.5em;
+  transition: 0.6s;
+}
+.modal{
+  background-color: blue;
+  top: 50vh;
 
+}
+
+
+
+ 
