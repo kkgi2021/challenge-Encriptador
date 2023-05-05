@@ -2,33 +2,35 @@
 <html lang="pt-Br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
   <title>Onecrypt</title>
 </head>
 
 <body>
   <header>
     <img class="logoAlura" src="./assets/logo-alura.png"
-      alt="logo marca alura representada por letra a minuscula de cor azul">
+      alt="logo marca alura representada por letra a minuscula de cor azul" />
   </header>
   <main>
     <section class="text-area">
-      <textarea class="imput-texto" placeholder="Digite com letra minuscula e sem acento " name="imputTexto"
-        id=""></textarea>
+      <textarea class="input-texto" placeholder="Digite com letra minuscula e sem acento" name="inputTexto"
+        id="inputTexto"></textarea>
     </section>
     <section>
-      <textarea class="mensage" placeholder="Seu texto encriptografado aparecera aqui" name="mensage" id=""></textarea>
+      <textarea class="mensagem" placeholder="Seu texto encriptografado aparecera aqui" name="mensagem"
+        id="mensagem"></textarea>
       <div>
-        <button class="btn-criptografar">cripitografar</button>
-        <button class="btn-descriptografar">descriptografar</button>
-        <button class="btn-copiar">Copiar</button>
-        <button class="btn-limpar">Limpar</button>
+        <button class="btn-criptografar" onclick="criptografar()">Criptografar</button>
+        <button class="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+        <button class="btn-copiar" id="btn-copiar" onclick="copiar()" disabled>Copiar</button>
+        <button class="btn-limpar" id="btn-limpar" onclick="limpar()" disabled>Limpar</button>
       </div>
     </section>
   </main>
+  <script src="./script.js"></script>
 </body>
 
 </html>

@@ -40,48 +40,63 @@ textarea:focus{
   background-image:none;
   transition: 0.4s;
  }
-.mensage{
+.mensagem{
   background-image: url(./assets/garoto-lupa.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 ::placeholder{
-  color: rgba(173, 146, 72, 0.479);
+  color: rgba(173
+, 173, 173, 0.774);
+font-size: 1.5em;
+text-align: center;
 }
 
-button{
-  background-color: blue;
-  color: white;
-  margin: 1em;
-  position: relative;
-  left: 5em;
-  width: 9em;
-  border-radius: 1.6em;
-  font-size: 0.9em;
-  padding: 0.3em;
-  cursor: pointer;
+.btn-criptografar,
+.btn-descriptografar,
+.btn-copiar,
+.btn-limpar {
+border: none;
+border-radius: 3em;
+background-color: rgb(160, 5, 231);
+padding: 1em 3em;
+margin-top: 1em;
+font-size: 1.5em;
+color: #fff;
+transition: 0.4s;
+cursor: pointer;
 }
-button:hover{
-  background-color: aquamarine;
-  color: rgb(8, 8, 8);
-  font-size: 1em;
-  padding-bottom:0.5em;
-  transition: 0.4s;
- 
-  
-}
-button:active{
-  background-color: rgb(247, 6, 58);
-  color: rgb(250, 248, 248);
-  padding-top:0.5em;
-  transition: 0.6s;
-}
-.modal{
-  background-color: blue;
-  top: 50vh;
-
+.btn-criptografar:hover,
+.btn-descriptografar:hover,
+.btn-copiar:hover,
+.btn-limpar:hover {
+background-color: rgb(184, 67, 247);
 }
 
+.btn-copiar:disabled,
+.btn-limpar:disabled {
+background-color: rgba(160, 5, 231, 0.5);
+cursor: default;
+}
 
+.logoAlura {
+position: absolute;
+top: 0.5em;
+left: 0.5em;
+height: 2em;
+}
 
- 
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 2em;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: linear-gradient(to bottom right, rgb(255, 211, 176), rgb(176, 221, 255));
+}
