@@ -24,10 +24,6 @@ Este projeto consiste em uma aplicação web simples que permite ao usuário ins
 ## Autor
 Este projeto foi desenvolvido por Claiton Gimenis. Você pode acessar o perfil do autor no [GitHub](https://github.com/kkgi2021).
 
-## Licença
-Este projeto está sob a licença [MIT](https://github.com/kkgi2021/onecrypt/blob/main/LICENSE).
-
-## Documentation  
 ## Documentation  
 [Documentation](doc.md)  
                  

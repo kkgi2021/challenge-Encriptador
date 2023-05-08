@@ -14,7 +14,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Para utilizar o Onecrypt, basta seguir os seguintes passos:
 
-1. Acesse o link da aplicação: [https://onecrypt.netlify.app/](https://onecrypt.netlify.app/)
+1. Acesse o link da aplicação: [https://challenge-Encriptador.netlify.app/](https://github.com/kkgi2021/challenge-Encriptador)
 2. Digite um texto no campo "Digite com letra minuscula e sem acento"
 3. Clique no botão "Criptografar" para criptografar o texto ou no botão "Descriptografar" para descriptografar o texto.
 4. O texto criptografado ou descriptografado será exibido no campo "Seu texto encriptografado aqui".
@@ -27,7 +27,7 @@ O Onecrypt utiliza uma chave de criptografia simétrica para criptografar e desc
 
 ## Desenvolvimento
 
-O Onecrypt foi desenvolvido por Claiton Gimenis como um projeto pessoal. O código fonte está disponível no GitHub em [https://github.com/kkgi2021/onecrypt](https://github.com/kkgi2021/onecrypt).
+O Onecrypt foi desenvolvido por Claiton Gimenis como um projeto pessoal. O código fonte está disponível no GitHub em [https://github.com/kkgi2021/challenge-Encriptador](https://github.com/kkgi2021/challenge-Encriptador).
 
 ## Considerações finais
 
