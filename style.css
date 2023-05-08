@@ -166,7 +166,7 @@ textarea:focus {
   transition: 0.4s;
 }
 .mensagem {
-  background-image: url(./assets/garoto-lupa.png);
+  background-image: url(./assets/cadeado.png);
   background-repeat: no-repeat;
   background-position: right;
   backface-visibility: 0.5;
