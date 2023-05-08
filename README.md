@@ -5,7 +5,7 @@ Este projeto consiste em uma aplicação web simples que permite ao usuário ins
 ## Screenshots  
 ![App Screenshot](./assets/screenshot1.png)  
 ![App Screenshot](./assets/screenshot2.png)
-
+## Acesse o link da aplicação: [Onecrypt](https://kkgi2021.github.io/challenge-Encriptador/)
 ## Funcionalidades
 - Permite inserir um texto na área de entrada de texto.
 - Criptografa o texto inserido pelo usuário ao clicar no botão "Criptografar".

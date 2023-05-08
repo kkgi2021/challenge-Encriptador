@@ -9,12 +9,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
-
+                          
 ## Como utilizar
 
 Para utilizar o Onecrypt, basta seguir os seguintes passos:
 
-1. Acesse o link da aplicação: [https://challenge-Encriptador.netlify.app/](https://github.com/kkgi2021/challenge-Encriptador)
+1. Acesse o link da aplicação: [Onecrypt](https://kkgi2021.github.io/challenge-Encriptador/)
 2. Digite um texto no campo "Digite com letra minuscula e sem acento"
 3. Clique no botão "Criptografar" para criptografar o texto ou no botão "Descriptografar" para descriptografar o texto.
 4. O texto criptografado ou descriptografado será exibido no campo "Seu texto encriptografado aqui".
