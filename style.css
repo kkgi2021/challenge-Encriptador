@@ -110,11 +110,24 @@ background-image: linear-gradient(to bottom right, rgb(255, 211, 176), rgb(176, 
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 211, 176),
+    rgb(176, 221, 255)
+  );
 }
 .logoAlura {
-  position: relative;
-  top: 0.5em;
-  left: 0.5em;
+  position: fixed;
+  top: 1%;
+  left: 1%;
   height: 3em;
 }
 main {
@@ -142,13 +155,13 @@ textarea {
   text-align: left;
   justify-content: center;
   padding: 1em;
-  font-size: 1.5em;
+  font-size: 1em;
   border: none;
   transition: 0.7s;
 }
 textarea:focus {
   color: rgb(160, 5, 231);
-  font-size: 1.8em;
+  font-size: 1em;
   background-image: none;
   transition: 0.4s;
 }
@@ -156,10 +169,11 @@ textarea:focus {
   background-image: url(./assets/garoto-lupa.png);
   background-repeat: no-repeat;
   background-position: right;
+  backface-visibility: 0.5;
 }
 ::placeholder {
   color: rgba(173, 173, 173, 0.774);
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
 }
 button {
@@ -187,24 +201,24 @@ button:active {
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2em;
+    display: flex;
+    justify-content: initial;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    flex: auto;
+    position: fixed;
+    left: 1%;
+    top: 1%;
 }
-body {
+footer.rodape{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(255, 211, 176),
-    rgb(176, 221, 255)
-  );
+  flex: auto;
+  position: fixed;
+  bottom: 1%;
 }
-/*
 
+
+/*
 @media only screen and (max-width: 768px) {
   
   textarea {
@@ -245,19 +259,12 @@ body {
   textarea {
     width: 100%;
   }
-  .logoAlura {
-    flex: auto;
-    display: flex;
-    top: 1vh;
-    margin: 0vw;
-    position: fixed;
-  }
+  
 
 }
 
 @media only screen and (max-width: 480px) {
   main {
-    background-color: blue;
     display: flex;
     flex: auto;
     position: relative;
@@ -268,14 +275,7 @@ body {
     top: 0vw;
     height: 75vh;
   }
-  .logoAlura {
-    flex: auto;
-    display: flex;
-    top: 1vh;
-    margin: 0vw;
-    position: fixed;
-  }
-  section {
+   section {
     flex-direction: column;
     padding: 0.2em;
     position: relative;
@@ -288,22 +288,22 @@ body {
     flex: auto;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: yellow;
     width: 95vw;
     top: 14vh;
     position: relative;
   }
   button{
-    font-size: 1.4em;
+    font-size: 0.9em;
     padding: 1.8vh;
     flex: auto;
 }
   
   textarea{
-      flex: auto;
+    font-size: 0.7em;
+    flex: auto;
     width: 82vw;
     height: 23vh;
-    top: 10vh;
+    top: 5vh;
   }
 
 
